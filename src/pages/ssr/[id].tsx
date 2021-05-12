@@ -4,7 +4,6 @@ type props = {
     data:any
 }
 const Post = ({id,data}:props) => {
-    console.log(data)
     if(data.message == undefined){
         return(
             <div>
