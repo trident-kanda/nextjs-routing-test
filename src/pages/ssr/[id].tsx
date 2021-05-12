@@ -13,7 +13,7 @@ const Post = ({id,data}:props) => {
     }else{
         return(
             <div>
-                <h1>存在しないID</h1>
+                <h1>存在しないIDまたはエラー</h1>
             </div>
         )
     }
